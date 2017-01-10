@@ -667,10 +667,7 @@
       
         
           
-          1. brew install polipo2. Modify ‘/usr/local/opt/polipo/homebrew.mxcl.polipo.plist’1&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;&lt;plist version=&quot;1.0&quot;&gt;&lt;dict&gt;&lt;key&gt;Label&lt;/key&gt;&lt;string&gt;homebrew.mxcl.polipo&lt;/string&gt;&lt;key&gt;RunAtLoad&lt;/key&gt;&lt;true/&gt;&lt;key&gt;KeepAlive&lt;/key&gt;&lt;true/&gt;&lt;key&gt;ProgramArguments&lt;/key&gt;&lt;array&gt;&lt;string&gt;/usr/local/opt/polipo/bin/polipo&lt;/string&gt;&lt;string&gt;socksParentProxy=localhost:1080&lt;/string&gt;&lt;/array&gt;&lt;/dict&gt;&lt;/plist&gt;
-3. brew services stop polipo4. polipo socksParentProxy=localhost:1080&gt;&gt; Now can use http proxy localhost:8123———————————————————-安装polipo，ubuntu下直接安装即可。1sudo apt-get install polipo
-停止polipo服务1sudo service polipo stop
-编辑polipo配置文件/etc/polipo/config，添加如下内容：12socksParentProxy = localhost:10
+          1. brew install polipo2. Modify ‘/usr/local/opt/polipo/homebrew.mxcl.polipo.plist’1&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -829,9 +826,8 @@
         
           
           SVN经常需要ignore一些文件或文件夹，可以用工具加入ignore文件名匹配:1234 *iml**.idea**target**.class*
-或在项目的根目录下运行(不要漏掉最后的 .)：1234svn propset svn:ignore &quot;*iml*&quot; .svn propset svn:ignore &quot;*.idea*&quot; .svn propset svn:ignore &quot;*target*&quot; .svn propset svn:ignore &quot;*.class*&quot; .
-
-          
+或在项目的根目录下运行(不要漏掉最后的 .)：1234svn propset svn:ignore &quot;*iml*&quot; .svn pr
+          ...
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/posts/OS/Mac/2017-01-10-OS/MAC/SVN-ignore-Patterns.html#more" rel="contents">
@@ -994,10 +990,8 @@
 输入 csrutil disable
 现实SIP已经关闭
 重启
-安装SwitchResx2. 安装 https://github.com/syscl/Enable-HiDPI-OSX3. 输入自定义的分辨率4. 打开SwitchResX选择自定义好的分辨率。
-
-
-          
+安装SwitchResx2. 
+          ...
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/posts/OS/Mac/2017-01-10-OS/MAC/Enable-HiDPI-in-mac.html#more" rel="contents">
@@ -1154,8 +1148,8 @@
       
         
           
-          点击首选项–设置(用户)，将配置文件修改为如下：12345678&#123;     “color_scheme”: “Packages/Color Scheme - Default/Monokai.tmTheme”,     “ignoredpackages”: [     “Vintage” ],    &quot;update_check&quot;: false, &#125;
-          
+          点击首选项–设置(用户)，将配置文件修改为如下：12345678&#123;     “color_scheme”: “Packages/Color Scheme - Default/Monokai.tmTheme”,     “ignoredpackages”: [     “Vintage” ]
+          ...
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/posts/OS/Mac/2017-01-10-OS/MAC/Sublime-3取消自动更新.html#more" rel="contents">
@@ -1301,16 +1295,8 @@
       
         
           
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.Quick StartCreate a new post1$ hexo new "My New Post"
-More info: Writing
-Run server1$ hexo server
-More info: Server
-Generate static files1$ hexo generate
-More info: Generating
-Deploy to remote sites1$ hexo deploy
-More info: Deployment
-
-          
+          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in 
+          ...
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/posts/OS/2017-01-09-OS/MAC/hello-world.html#more" rel="contents">

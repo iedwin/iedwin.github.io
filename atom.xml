@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Edwin的Blog</title>
+  <subtitle>Everything has a reason</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://iedwin.github.io/"/>
+  <updated>2017-01-11T07:06:19.000Z</updated>
+  <id>http://iedwin.github.io/</id>
+  
+  <author>
+    <name>Edwin Wang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Finder显示隐藏文件</title>
+    <link href="http://iedwin.github.io/posts/OS/Mac/2017-01-10-OS/MAC/Finder%E6%98%BE%E7%A4%BA%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6.html"/>
+    <id>http://iedwin.github.io/posts/OS/Mac/2017-01-10-OS/MAC/Finder显示隐藏文件.html</id>
+    <published>2017-01-10T01:49:49.000Z</published>
+    <updated>2017-01-11T07:06:19.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="ge"><a href="#ge" class="headerlink" title="ge="></a>ge=</h4>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;ge&quot;&gt;&lt;a href=&quot;#ge&quot; class=&quot;headerlink&quot; title=&quot;ge=&quot;&gt;&lt;/a&gt;ge=&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="OS" scheme="http://iedwin.github.io/categories/OS/"/>
+    
+      <category term="Mac" scheme="http://iedwin.github.io/categories/OS/Mac/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>为macOS Sierra添加可以安装任何源的选项Anywhere</title>
+    <link href="http://iedwin.github.io/posts/OS/Mac/2017-01-10-OS/MAC/%E4%B8%BAmacOS-Sierra%E6%B7%BB%E5%8A%A0%E5%8F%AF%E4%BB%A5%E5%AE%89%E8%A3%85%E4%BB%BB%E4%BD%95%E6%BA%90%E7%9A%84%E9%80%89%E9%A1%B9Anywhere.html"/>
+    <id>http://iedwin.github.io/posts/OS/Mac/2017-01-10-OS/MAC/为macOS-Sierra添加可以安装任何源的选项Anywhere.html</id>
+    <published>2017-01-10T01:46:33.000Z</published>
+    <updated>2017-01-10T01:52:36.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="macOS-Sierra默认只能安装App-store下载的app，去掉了EI-Capitain中可以安装任何源app的选项Anywhere。其实这个选项只是被隐藏了，可以用以下命令让它显示出来："><a href="#macOS-Sierra默认只能安装App-store下载的app，去掉了EI-Capitain中可以安装任何源app的选项Anywhere。其实这个选项只是被隐藏了，可以用以下命令让它显示出来：" class="headerlink" title="macOS Sierra默认只能安装App store下载的app，去掉了EI Capitain中可以安装任何源app的选项Anywhere。其实这个选项只是被隐藏了，可以用以下命令让它显示出来："></a>macOS Sierra默认只能安装App store下载的app，去掉了EI Capitain中可以安装任何源app的选项Anywhere。其实这个选项只是被隐藏了，可以用以下命令让它显示出来：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo spctl --master-disable</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;macOS-Sierra默认只能安装App-store下载的app，去掉了EI-Capitain中可以安装任何源app的选项Anywhere。其实这个选项只是被隐藏了，可以用以下命令让它显示出来：&quot;&gt;&lt;a href=&quot;#macOS-Sierra默认只能安装App-
+    
+    </summary>
+    
+      <category term="OS" scheme="http://iedwin.github.io/categories/OS/"/>
+    
+      <category term="Mac" scheme="http://iedwin.github.io/categories/OS/Mac/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>使用polipo将Socks5代理转换为Http代理</title>
+    <link href="http://iedwin.github.io/posts/OS/Mac/2017-01-10-OS/MAC/%E4%BD%BF%E7%94%A8polipo%E5%B0%86Socks5%E4%BB%A3%E7%90%86%E8%BD%AC%E6%8D%A2%E4%B8%BAHttp%E4%BB%A3%E7%90%86.html"/>
+    <id>http://iedwin.github.io/posts/OS/Mac/2017-01-10-OS/MAC/使用polipo将Socks5代理转换为Http代理.html</id>
+    <published>2017-01-10T01:42:22.000Z</published>
+    <updated>2017-01-10T01:52:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="1-brew-install-polipo"><a href="#1-brew-install-polipo" class="headerlink" title="1. brew install polipo"></a>1. brew install polipo</h4><h4 id="2-Modify-‘-usr-local-opt-polipo-homebrew-mxcl-polipo-plist’"><a href="#2-Modify-‘-usr-local-opt-polipo-homebrew-mxcl-polipo-plist’" class="headerlink" title="2. Modify ‘/usr/local/opt/polipo/homebrew.mxcl.polipo.plist’"></a>2. Modify ‘/usr/local/opt/polipo/homebrew.mxcl.polipo.plist’</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;&lt;plist version=&quot;1.0&quot;&gt;&lt;dict&gt;&lt;key&gt;Label&lt;/key&gt;&lt;string&gt;homebrew.mxcl.polipo&lt;/string&gt;&lt;key&gt;RunAtLoad&lt;/key&gt;&lt;true/&gt;&lt;key&gt;KeepAlive&lt;/key&gt;&lt;true/&gt;&lt;key&gt;ProgramArguments&lt;/key&gt;&lt;array&gt;&lt;string&gt;/usr/local/opt/polipo/bin/polipo&lt;/string&gt;&lt;string&gt;socksParentProxy=localhost:1080&lt;/string&gt;&lt;/array&gt;&lt;/dict&gt;&lt;/plist&gt;</div></pre></td></tr></table></figure>
+<h4 id="3-brew-services-stop-polipo"><a href="#3-brew-services-stop-polipo" class="headerlink" title="3. brew services stop polipo"></a>3. brew services stop polipo</h4><h4 id="4-polipo-socksParentProxy-localhost-1080"><a href="#4-polipo-socksParentProxy-localhost-1080" class="headerlink" title="4. polipo socksParentProxy=localhost:1080"></a>4. polipo socksParentProxy=localhost:1080</h4><h4 id="gt-gt-Now-can-use-http-proxy-localhost-8123"><a href="#gt-gt-Now-can-use-http-proxy-localhost-8123" class="headerlink" title="&gt;&gt; Now can use http proxy localhost:8123"></a>&gt;&gt; Now can use http proxy localhost:8123</h4><h4 id="———————————————————"><a href="#———————————————————" class="headerlink" title="———————————————————-"></a>———————————————————-</h4><h4 id="安装polipo，ubuntu下直接安装即可。"><a href="#安装polipo，ubuntu下直接安装即可。" class="headerlink" title="安装polipo，ubuntu下直接安装即可。"></a>安装polipo，ubuntu下直接安装即可。</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-get install polipo</div></pre></td></tr></table></figure>
+<h4 id="停止polipo服务"><a href="#停止polipo服务" class="headerlink" title="停止polipo服务"></a>停止polipo服务</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo service polipo stop</div></pre></td></tr></table></figure>
+<h4 id="编辑polipo配置文件-etc-polipo-config，添加如下内容："><a href="#编辑polipo配置文件-etc-polipo-config，添加如下内容：" class="headerlink" title="编辑polipo配置文件/etc/polipo/config，添加如下内容："></a>编辑polipo配置文件/etc/polipo/config，添加如下内容：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">socksParentProxy = localhost:1080</div><div class="line">proxyPort = 8787</div></pre></td></tr></table></figure>
+<h4 id="启动polipo服务"><a href="#启动polipo服务" class="headerlink" title="启动polipo服务"></a>启动polipo服务</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo service polipo start</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;1-brew-install-polipo&quot;&gt;&lt;a href=&quot;#1-brew-install-polipo&quot; class=&quot;headerlink&quot; title=&quot;1. brew install polipo&quot;&gt;&lt;/a&gt;1. brew install polipo
+    
+    </summary>
+    
+      <category term="OS" scheme="http://iedwin.github.io/categories/OS/"/>
+    
+      <category term="Mac" scheme="http://iedwin.github.io/categories/OS/Mac/"/>
+    
+    
+      <category term="polipo" scheme="http://iedwin.github.io/tags/polipo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SVN ignore Patterns</title>
+    <link href="http://iedwin.github.io/posts/OS/Mac/2017-01-10-OS/MAC/SVN-ignore-Patterns.html"/>
+    <id>http://iedwin.github.io/posts/OS/Mac/2017-01-10-OS/MAC/SVN-ignore-Patterns.html</id>
+    <published>2017-01-10T01:38:55.000Z</published>
+    <updated>2017-01-10T01:52:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="SVN经常需要ignore一些文件或文件夹，可以用工具加入ignore文件名匹配"><a href="#SVN经常需要ignore一些文件或文件夹，可以用工具加入ignore文件名匹配" class="headerlink" title="SVN经常需要ignore一些文件或文件夹，可以用工具加入ignore文件名匹配:"></a>SVN经常需要ignore一些文件或文件夹，可以用工具加入ignore文件名匹配:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"> *iml*</div><div class="line">*.idea*</div><div class="line">*target*</div><div class="line">*.class*</div></pre></td></tr></table></figure>
+<h3 id="或在项目的根目录下运行-不要漏掉最后的-："><a href="#或在项目的根目录下运行-不要漏掉最后的-：" class="headerlink" title="或在项目的根目录下运行(不要漏掉最后的 .)："></a>或在项目的根目录下运行(不要漏掉最后的 .)：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">svn propset svn:ignore &quot;*iml*&quot; .</div><div class="line">svn propset svn:ignore &quot;*.idea*&quot; .</div><div class="line">svn propset svn:ignore &quot;*target*&quot; .</div><div class="line">svn propset svn:ignore &quot;*.class*&quot; .</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;SVN经常需要ignore一些文件或文件夹，可以用工具加入ignore文件名匹配&quot;&gt;&lt;a href=&quot;#SVN经常需要ignore一些文件或文件夹，可以用工具加入ignore文件名匹配&quot; class=&quot;headerlink&quot; title=&quot;SVN经常需要ignor
+    
+    </summary>
+    
+      <category term="OS" scheme="http://iedwin.github.io/categories/OS/"/>
+    
+      <category term="Mac" scheme="http://iedwin.github.io/categories/OS/Mac/"/>
+    
+    
+      <category term="SVN" scheme="http://iedwin.github.io/tags/SVN/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Enable HiDPI in mac</title>
+    <link href="http://iedwin.github.io/posts/OS/Mac/2017-01-10-OS/MAC/Enable-HiDPI-in-mac.html"/>
+    <id>http://iedwin.github.io/posts/OS/Mac/2017-01-10-OS/MAC/Enable-HiDPI-in-mac.html</id>
+    <published>2017-01-10T01:36:55.000Z</published>
+    <updated>2017-01-10T01:52:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="1-关闭system-integrity-protection-重启Mac"><a href="#1-关闭system-integrity-protection-重启Mac" class="headerlink" title="1. 关闭system integrity protection* 重启Mac"></a>1. 关闭system integrity protection* 重启Mac</h5><ul>
+<li>按住Command+R，等待出现apple logo进入Recovery模式</li>
+<li>从Utilities菜单中选择Terminal</li>
+<li>输入 csrutil disable</li>
+<li>现实SIP已经关闭</li>
+<li>重启</li>
+<li>安装SwitchResx<h5 id="2-安装-https-github-com-syscl-Enable-HiDPI-OSX"><a href="#2-安装-https-github-com-syscl-Enable-HiDPI-OSX" class="headerlink" title="2. 安装 https://github.com/syscl/Enable-HiDPI-OSX"></a>2. 安装 <a href="https://github.com/syscl/Enable-HiDPI-OSX" target="_blank" rel="external">https://github.com/syscl/Enable-HiDPI-OSX</a></h5><h5 id="3-输入自定义的分辨率"><a href="#3-输入自定义的分辨率" class="headerlink" title="3. 输入自定义的分辨率"></a>3. 输入自定义的分辨率</h5><h5 id="4-打开SwitchResX选择自定义好的分辨率。"><a href="#4-打开SwitchResX选择自定义好的分辨率。" class="headerlink" title="4. 打开SwitchResX选择自定义好的分辨率。"></a>4. 打开SwitchResX选择自定义好的分辨率。</h5></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h5 id=&quot;1-关闭system-integrity-protection-重启Mac&quot;&gt;&lt;a href=&quot;#1-关闭system-integrity-protection-重启Mac&quot; class=&quot;headerlink&quot; title=&quot;1. 关闭system integr
+    
+    </summary>
+    
+      <category term="OS" scheme="http://iedwin.github.io/categories/OS/"/>
+    
+      <category term="Mac" scheme="http://iedwin.github.io/categories/OS/Mac/"/>
+    
+    
+      <category term="HiDPI" scheme="http://iedwin.github.io/tags/HiDPI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Sublime 3取消自动更新</title>
+    <link href="http://iedwin.github.io/posts/OS/Mac/2017-01-10-OS/MAC/Sublime-3%E5%8F%96%E6%B6%88%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0.html"/>
+    <id>http://iedwin.github.io/posts/OS/Mac/2017-01-10-OS/MAC/Sublime-3取消自动更新.html</id>
+    <published>2017-01-10T01:32:01.000Z</published>
+    <updated>2017-01-10T06:55:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="点击首选项–设置-用户-，将配置文件修改为如下："><a href="#点击首选项–设置-用户-，将配置文件修改为如下：" class="headerlink" title="点击首选项–设置(用户)，将配置文件修改为如下："></a>点击首选项–设置(用户)，将配置文件修改为如下：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">&#123; </div><div class="line">    “color_scheme”: “Packages/Color Scheme - Default/Monokai.tmTheme”, </div><div class="line">    “ignoredpackages”: </div><div class="line">[ </div><div class="line">    “Vintage” </div><div class="line">], </div><div class="line">   &quot;update_check&quot;: false, </div><div class="line">&#125;</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;点击首选项–设置-用户-，将配置文件修改为如下：&quot;&gt;&lt;a href=&quot;#点击首选项–设置-用户-，将配置文件修改为如下：&quot; class=&quot;headerlink&quot; title=&quot;点击首选项–设置(用户)，将配置文件修改为如下：&quot;&gt;&lt;/a&gt;点击首选项–设置(用户)，将
+    
+    </summary>
+    
+      <category term="OS" scheme="http://iedwin.github.io/categories/OS/"/>
+    
+      <category term="Mac" scheme="http://iedwin.github.io/categories/OS/Mac/"/>
+    
+    
+      <category term="Sublime" scheme="http://iedwin.github.io/tags/Sublime/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://iedwin.github.io/posts/OS/2017-01-09-OS/MAC/hello-world.html"/>
+    <id>http://iedwin.github.io/posts/OS/2017-01-09-OS/MAC/hello-world.html</id>
+    <published>2017-01-09T03:15:09.000Z</published>
+    <updated>2017-01-10T06:56:11.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="Welcome-to-Hexo-This-is-your-very-first-post-Check-documentation-for-more-info-If-you-get-any-problems-when-using-Hexo-you-can-find-the-answer-in-troubleshooting-or-you-can-ask-me-on-GitHub"><a href="#Welcome-to-Hexo-This-is-your-very-first-post-Check-documentation-for-more-info-If-you-get-any-problems-when-using-Hexo-you-can-find-the-answer-in-troubleshooting-or-you-can-ask-me-on-GitHub" class="headerlink" title="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub."></a>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</h4><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;Welcome-to-Hexo-This-is-your-very-first-post-Check-documentation-for-more-info-If-you-get-any-problems-when-using-Hexo-you-can-find-
+    
+    </summary>
+    
+      <category term="OS" scheme="http://iedwin.github.io/categories/OS/"/>
+    
+    
+      <category term="mongodb" scheme="http://iedwin.github.io/tags/mongodb/"/>
+    
+      <category term="redis" scheme="http://iedwin.github.io/tags/redis/"/>
+    
+  </entry>
+  
+</feed>
